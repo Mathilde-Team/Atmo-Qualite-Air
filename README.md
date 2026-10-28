@@ -118,7 +118,31 @@ Publication : dater la section de `CHANGELOG.md`, puis pousser un tag
 `vX.Y.Z` égal à la version de `manifest.json` ; la release HACS
 (`atmo_qualite_air.zip`) est construite automatiquement.
 
-## Licence
+## Données et licences
 
-[MIT](LICENSE). Les données restent la propriété d'Atmo France et des AASQA,
-sous leurs propres conditions d'utilisation.
+- **Licence des données** : toutes les données d'Atmo Data (indice ATMO,
+  sous-indices par polluant, indice pollen) sont publiées sous
+  [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/)
+  ([CGU d'Atmo France](https://www.atmo-france.org/article/conditions-generales-dutilisation),
+  section « Licence et conditions d'utilisation » ;
+  [notice technique Atmo Data](https://www.atmo-france.org/sites/federation/files/medias/documents/2025-04/notice_Atmo_Data_1eravril2025.pdf)).
+- **Attribution obligatoire** : toute utilisation ou réutilisation doit
+  indiquer « Source des données : Atmo France/AASQA ». Les AASQA sont les
+  associations agréées de surveillance de la qualité de l'air, par exemple
+  ATMO Grand Est pour Strasbourg ; chaque donnée porte le code de son AASQA
+  source.
+- **Indice pollen (données INTERpollens)** : une analyse ou un rapport qui
+  s'appuie sur ces données doit en plus indiquer : « Cette analyse repose sur
+  les données mises à disposition par Atmo France et les AASQA, accessibles
+  sur https://www.atmo-france.org/article/atmo-data-un-acces-unique-aux-donnees-produites-par-les-aasqa.
+  Les données sont sous licence ODbL. Les traitements et interprétations des
+  données sont de la seule responsabilité de l'auteur. »
+- **ODbL** : si vous rediffusez une base de données dérivée, par exemple un
+  export de l'historique Home Assistant, elle doit rester sous ODbL et citer
+  la source. Un simple affichage dans Home Assistant demande seulement la
+  mention de la source.
+- **Accès à l'API** : l'API exige un compte gratuit
+  ([inscription](https://admindata.atmo-france.org/inscription-api)). Atmo
+  France ne garantit ni l'absence d'erreurs ni la disponibilité du service.
+- **Code** : licence [MIT](LICENSE) (intégration Home Assistant, exception
+  SOCLE §1).
