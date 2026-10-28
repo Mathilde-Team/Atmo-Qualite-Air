@@ -1,5 +1,9 @@
 # Journal des versions
 
+## [Non publié]
+
+- README : la section « Licence » devient « Données et licences » (données Atmo Data sous ODbL 1.0, attribution « Source des données : Atmo France/AASQA », mention complémentaire pour les pollens INTERpollens) (#23).
+
 ## [0.1.1] — 22/10/2026
 
 - Workflow de release avec le Python de uv (python3 du runner trop
