@@ -2,6 +2,10 @@
 
 ## [Non publié]
 
+- CI et publication : repli GitHub autorisé, publication manuelle sur un tag
+  déjà livré dans main, vérification d’ascendance et archives du tag exact.
+
+
 - README : la section « Licence » devient « Données et licences » (données Atmo Data sous ODbL 1.0, attribution « Source des données : Atmo France/AASQA », mention complémentaire pour les pollens INTERpollens) (#23).
 
 ## [0.1.1] — 22/10/2026
